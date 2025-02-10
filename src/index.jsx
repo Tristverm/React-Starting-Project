@@ -3,5 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 
+let { createRoot } = ReactDOM;
+
 const entryPoint = document.getElementById("root");
-ReactDOM.createRoot(entryPoint).render(<App />);
+createRoot(entryPoint).render(<App />);
