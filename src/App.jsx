@@ -14,6 +14,7 @@ function genRandomInt(max) {
 const Header = () => {
   let description =
     reactDescriptions[genRandomInt(reactDescriptions.length - 1)];
+  console.log(reactImg);
   return (
     <header>
       <img src={reactImg} alt="Stylized atom" />
