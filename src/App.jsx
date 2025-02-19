@@ -21,10 +21,12 @@ const Header = () => {
   return (
     <header>
       <img src={reactImg} alt="Stylized atom" />
+      {/* // the imported react
+      image is used here */}
       <h1>React Essentials</h1>
       <p>
         {description + " "}
-         React concepts you will need for almost any app you are going to build!
+        React concepts you will need for almost any app you are going to build!
       </p>
     </header>
   );
